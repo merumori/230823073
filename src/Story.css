@@ -45,24 +45,14 @@ body {
     object-fit: cover;
   }
   .main{
-
-    
-    position: relative;
-
-    
-  
-  }
+     position: relative;
+      }
   .sub{
     position:absolute;
     display: flex;
     margin-left: 0px;
-  
-   color: white;
-   text-align: center;
-   padding: 14px;
-   text-decoration: none;
+    white-space: nowrap;
+    overflow: auto;
 
   }
-  .main:hover{
-    background-color: #777;
-  }
+  
